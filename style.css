@@ -1,0 +1,64 @@
+/* リセットCSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* レスポンシブ対応 */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.header-name-katakana {
+  font-size: 1.8rem;
+  margin-bottom: 0.1rem; /* 間隔を狭める */
+}
+
+.header-name-alphabet {
+  font-size: 1.5rem;
+  margin-bottom: 2rem; /* 間隔を広げる */
+}
+
+.header-image {
+  max-width: 40%; /* 画像を小さく表示 */
+  height: auto;
+  margin-bottom: 1.5rem; /* 間隔を広げる */
+}
+
+.header-social-links {
+  display: flex;
+  flex-direction: column; /* 縦に並べる */
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #f0f0f0; /* 背景色を追加 */
+  padding: 2rem; /* パディングを追加 */
+}
+
+.social-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 960px) {
+  .header-name-katakana {
+    font-size: 1.5rem;
+  }
+
+  .header-name-alphabet {
+    font-size: 1.2rem;
+  }
+
+  .social-link {
+    font-size: 1rem;
+  }
+}
