@@ -37,7 +37,7 @@ body {
   flex-direction: column; /* header-textの子要素を縦に並べる */
   align-items: center; /* header-textの子要素を横方向（水平方向）に中央揃えに設定 */
   color: #282828;
-  margin-left: 2rem; /* header-text要素の左側に2remのマージンを設定 */
+  margin-left: 2.5rem; /* header-text要素の左側に2remのマージンを設定 */
 }
 
 .header-name-katakana {
@@ -54,7 +54,7 @@ body {
   display: flex; /* header-social-links要素をフレックスコンテナに設定 */
   flex-direction: column; /* header-social-linksの子要素を縦に並べる */
   align-items: center; /* header-social-linksの子要素を横方向（水平方向）に中央揃えに設定 */
-  padding: 1rem 1.5rem; /* header-social-links要素に1remのパディングを設定 */
+  padding: 0.5rem 1.5rem; /* header-social-links要素に1remのパディングを設定 */
   width: 100%;
 }
 
