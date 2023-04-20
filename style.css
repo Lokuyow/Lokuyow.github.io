@@ -61,7 +61,7 @@ body {
   text-decoration: none; /* ソーシャルリンクのテキスト装飾を無効化 */
   color: #333; /* ソーシャルリンクのテキストカラーを設定 */
   font-size: 1.2rem; /* ソーシャルリンクのフォントサイズを1.5remに設定 */
-  padding: 1.6rem 15rem; /* ソーシャルリンクの上下に1.8rem、左右に10remのパディングを設定 */
+  padding: 1.6rem 5rem; /* ソーシャルリンクの上下に1.8rem、左右に10remのパディングを設定 */
   width: 100%;
   text-align: center; /* ソーシャルリンクのテキストを中央寄せに設定 */
 }
