@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="ja">
+<!DOCTYPE html> <!-- HTML5の宣言 -->
+<html lang="ja"> <!-- 日本語のページを指定 -->
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ロクヨウ-Lokuyow</title>
+  <meta charset="UTF-8"> <!-- 文字コードをUTF-8に設定 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- レスポンシブデザインに対応させるためのビューポート設定 -->
+  <title>Lokuyow</title> <!-- ウェブページのタイトル -->
 
+  <!-- さまざまなデバイスやブラウザに対応したファビコンの設定 -->
   <link rel="icon" type="image/vnd.microsoft.icon" href="favicons/favicon.ico">
   <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
@@ -43,14 +44,21 @@
   <link rel="icon" type="image/png" sizes="24x24" href="favicons/icon-24x24.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicons/icon-32x32.png">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"> <!-- 外部CSSファイルを読み込む -->
 </head>
 <body>
-  <header class="header">
-    <h1 class="header-name-katakana">ロクヨウ</h1>
-    <h2 class="header-name-alphabet">Lokuyow</h2>
-    <img src="icon-1.png" alt="あなたの画像" class="header-image">
-    <div class="header-social-links">
+  <header class="header"> <!-- ヘッダーエリア -->
+
+    <div class="identity"> <!-- ユーザー情報エリア -->
+      <img src="icon-1.png" alt="あなたの画像" class="header-image"> <!-- ユーザー画像 -->
+      <div class="header-text"> <!-- ユーザー名エリア -->
+        <h1 class="header-name-katakana">ロクヨウ</h1> <!-- カタカナ表記のユーザー名 -->
+        <h2 class="header-name-alphabet">Lokuyow</h2> <!-- アルファベット表記のユーザー名 -->
+      </div>
+    </div>
+
+    <div class="header-social-links"> <!-- ソーシャルリンクエリア -->
+      <!-- 各ソーシャルリンク -->
       <a href="https://twitter.com/Lokuyow" class="social-link" target="_blank">Twitter</a>
       <a href="https://nostx.shino3.net/npub1a3pvwe2p3v7mnjz6hle63r628wl9w567aw7u23fzqs062v5vqcqqu3sgh3" class="social-link" target="_blank">Nostr</a>
       <a href="https://github.com/Lokuyow" class="social-link" target="_blank">GitHub</a>
@@ -60,8 +68,9 @@
       <a href="https://staging.bsky.app/profile/lokuyow.bsky.social" class="social-link" target="_blank">Bluesky</a>
       <a href="https://misskey.io/@Lokuyow" class="social-link" target="_blank">Misskey</a>
     </div>
+    
   </header>
 
-  <script src="script.js"></script>
+  <script src="script.js"></script> <!-- 外部JavaScriptファイルを読み込む -->
 </body>
 </html>
