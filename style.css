@@ -37,7 +37,7 @@ body {
   flex-direction: column; /* header-textの子要素を縦に並べる */
   align-items: center; /* header-textの子要素を横方向（水平方向）に中央揃えに設定 */
   color: #282828;
-  margin-left: 2.5rem; /* header-text要素の左側に2remのマージンを設定 */
+  margin-left: 1rem; /* header-text要素の左側に2remのマージンを設定 */
 }
 
 .header-name-katakana {
