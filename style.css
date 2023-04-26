@@ -54,7 +54,7 @@ body {
   display: flex; /* header-social-links要素をフレックスコンテナに設定 */
   flex-direction: column; /* header-social-linksの子要素を縦に並べる */
   align-items: center; /* header-social-linksの子要素を横方向（水平方向）に中央揃えに設定 */
-  padding: 0.5rem 1.5rem; /* header-social-links要素に1remのパディングを設定 */
+  padding: 0.5rem 2.5rem; /* header-social-links要素に1remのパディングを設定 */
   width: 100%;
 }
 
@@ -68,11 +68,11 @@ body {
 }
 
 .social-link:nth-child(odd) {
-  background-color: rgb(240, 240, 240); /* 奇数番目のソーシャルリンクの背景色を設定 */
+  background-color: rgb(235, 235, 235); /* 奇数番目のソーシャルリンクの背景色を設定 */
 }
 
 .social-link:nth-child(even) {
-  background-color: rgb(248, 248, 248); /* 偶数番目のソーシャルリンクの背景色を設定 */
+  background-color: rgb(245, 245, 245); /* 偶数番目のソーシャルリンクの背景色を設定 */
 }
 
 @media screen and (min-width: 481px) {
