@@ -9,16 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
       { src: "icon/nita0.png", probability: 5 },
       { src: "icon/tiku.png", probability: 2 },
       { src: "icon/tiku2.png", probability: 1 },
-      // 画像のファイル名と確率を追加
     ];
   
     const randomImage = document.getElementById("randomImage");
     let previousImageIndex = 0;
   
-    // ページ読み込み時に最初の画像（image1.jpg）を表示
     randomImage.src = images[previousImageIndex].src;
   
-    // クリック時に画像を変更
     randomImage.addEventListener("click", function () {
       let newImageIndex;
       let randomNumber = Math.random() * (100 - images[previousImageIndex].probability);

@@ -1,85 +1,83 @@
-/* リセットCSS */
 * {
-  margin: 0; /* すべての要素のマージンを0に設定 */
-  padding: 0; /* すべての要素のパディングを0に設定 */
-  box-sizing: border-box; /* すべての要素のボックスサイズをボーダーボックスに設定 */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* レスポンシブ対応 */
 body {
-  font-family: Arial, sans-serif; /* ページ全体のフォントファミリーを設定 */
-  display: flex; /* body要素をフレックスコンテナに設定 */
-  flex-direction: column; /* bodyの子要素を縦に並べる */
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Hiragino Kaku Gothic ProN,Hiragino Sans,ヒラギノ角ゴ ProN W3,Arial,メイリオ,Meiryo,sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-  display: flex; /* header要素をフレックスコンテナに設定 */
-  flex-direction: column; /* headerの子要素を縦に並べる */
-  align-items: center; /* headerの子要素を横方向（水平方向）に中央揃えに設定 */
-  padding: 2rem 0; /* header要素の上下に2remのパディングを設定 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
 }
 
 .identity {
-  display: flex; /* identity要素をフレックスコンテナに設定 */
-  flex-direction: row; /* identityの子要素を横に並べる */
-  align-items: center; /* identityの子要素を縦方向（垂直方向）に中央揃えに設定 */
-  justify-content: center; /* identityの子要素を横方向（水平方向）に中央揃えに設定 */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-image {
-  width: 120px;  /* ここで画像の表示幅を設定 */
-  height: 120px; /* ここで画像の表示高さを設定 */
-  object-fit: contain; /* 画像が指定されたサイズに収まるようにアスペクト比を維持し、必要に応じて拡大・縮小 */
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
   flex-shrink: 0;
   transition: transform 0.1s ease-out;
 }
 
 
-.header-image:active { /* クリックされたときの状態 */
-  transform: scale(0.9); /* 縮小するエフェクト */
+.header-image:active {
+  transform: scale(0.9);
 }
 
 .header-text {
-  display: flex; /* header-text要素をフレックスコンテナに設定 */
-  flex-direction: column; /* header-textの子要素を縦に並べる */
-  align-items: center; /* header-textの子要素を横方向（水平方向）に中央揃えに設定 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: #282828;
-  margin-left: 1rem; /* header-text要素の左側に2remのマージンを設定 */
+  margin-left: 1rem;
 }
 
 .header-name-katakana {
-  font-size: 1.5rem; /* カタカナ表記のユーザー名のフォントサイズを1.5remに設定 */
+  font-size: 1.5rem;
 }
 
 .header-name-alphabet {
-  font-size: 1.2rem; /* アルファベット表記のユーザー名のフォントサイズを1.3remに設定 */
+  font-size: 1.2rem;
 }
 
 .header-social-links {
-  flex-basis: 100%; /* ヘッダーソーシャルリンクの基本サイズを100%に設定 */
-  margin-top: 1rem; /* ヘッダーソーシャルリンクの上に1remのマージンを設定 */
-  display: flex; /* header-social-links要素をフレックスコンテナに設定 */
-  flex-direction: column; /* header-social-linksの子要素を縦に並べる */
-  align-items: center; /* header-social-linksの子要素を横方向（水平方向）に中央揃えに設定 */
-  padding: 0.5rem 2.5rem; /* header-social-links要素に1remのパディングを設定 */
+  flex-basis: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 2.5rem;
   width: 100%;
 }
 
 .social-link {
-  text-decoration: none; /* ソーシャルリンクのテキスト装飾を無効化 */
-  color: #000000; /* ソーシャルリンクのテキストカラーを設定 */
-  font-size: 1.2rem; /* ソーシャルリンクのフォントサイズを1.5remに設定 */
-  padding: 1.5rem 0; /* ソーシャルリンクの上下に1.8rem、左右に10remのパディングを設定 */
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+  padding: 1.2rem 0;
   width: 100%;
-  text-align: center; /* ソーシャルリンクのテキストを中央寄せに設定 */
+  text-align: center;
 }
 
 .social-link:nth-child(odd) {
-  background-color: rgb(235, 235, 235); /* 奇数番目のソーシャルリンクの背景色を設定 */
+  background-color: rgb(235, 235, 235);
 }
 
 .social-link:nth-child(even) {
-  background-color: rgb(245, 245, 245); /* 偶数番目のソーシャルリンクの背景色を設定 */
+  background-color: rgb(245, 245, 245);
 }
 
 @media screen and (min-width: 481px) {
@@ -90,14 +88,14 @@ body {
   }
 
   .header-name-katakana {
-    font-size: 1.8rem; /* 画面幅が481px以上の場合、カタカナ表記のユーザー名のフォントサイズを1.8remに設定 */
+    font-size: 1.8rem;
   }
 
   .header-name-alphabet {
-    font-size: 1.4rem; /* 画面幅が481px以上の場合、アルファベット表記のユーザー名のフォントサイズを1.4remに設定 */
+    font-size: 1.4rem;
   }
 
   .social-link {
-    font-size: 1.4rem; /* 画面幅が481px以上の場合、ソーシャルリンクのフォントサイズを1.4remに設定 */
+    font-size: 1.4rem;
   }
 }
