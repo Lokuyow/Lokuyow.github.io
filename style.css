@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-font: -apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Hiragino Kaku Gothic ProN,Hiragino Sans,ヒラギノ角ゴ ProN W3,Arial,メイリオ,Meiryo,sans-serif;
+}
+
 body {
-  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Hiragino Kaku Gothic ProN,Hiragino Sans,ヒラギノ角ゴ ProN W3,Arial,メイリオ,Meiryo,sans-serif;
+  font-family: var(--main-font);
   display: flex;
   flex-direction: column;
 }
@@ -32,7 +36,6 @@ body {
   transition: transform 0.1s ease-out;
 }
 
-
 .header-image:active {
   transform: scale(0.9);
 }
@@ -42,15 +45,18 @@ body {
   flex-direction: column;
   align-items: center;
   color: #282828;
-  margin-left: 1rem;
+  margin: 0 0 0 1rem;
+  line-height: 1.2;
 }
 
 .header-name-katakana {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 
 .header-name-alphabet {
   font-size: 1.5rem;
+  font-weight: normal;
 }
 
 .header-social-links {
@@ -58,44 +64,79 @@ body {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 0.5rem 2.5rem;
+  align-items: flex-start;
+  padding: 0.5rem 0;
   width: 100%;
+  max-width: 16.5rem;
 }
 
 .social-link {
   text-decoration: none;
   color: #000000;
   font-size: 1.2rem;
-  padding: 1.2rem 0;
+  font-weight: lighter;
+  padding: 1rem 0;
   width: 100%;
-  text-align: center;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 
 .social-link:nth-child(odd) {
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(240, 240, 240);
 }
 
 .social-link:nth-child(even) {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(248, 248, 248);
+  border-top: 0.1rem solid rgb(230, 230, 230);
+  border-bottom: 0.1rem solid rgb(230, 230, 230);
 }
 
-@media screen and (min-width: 481px) {
+.social-link .icon {
+  display: flex;
+  justify-content: center;
+  width: 0.1rem;
+  margin-left: 7rem;
+}
 
-  .header-image {
-    width: 150px;
-    height: 150px;
-  }
+.social-link .icon::before {
+  font-family: "Font Awesome 5 Brands";
+  margin-right: 2.5rem;
+}
 
-  .header-name-katakana {
-    font-size: 1.9rem;
-  }
+.social-link:nth-child(1) .icon::before {
+  content: "\f099";
+}
 
-  .header-name-alphabet {
-    font-size: 1.6rem;
-  }
+.social-link:nth-child(2) .icon::before {
+  content: "\f56b";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 0.98em;
+}
 
-  .social-link {
-    font-size: 1.4rem;
-  }
+.social-link:nth-child(3) .icon::before {
+  content: "\f09b";
+}
+
+.social-link:nth-child(4) .icon::before {
+  content: "\f0eb";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.social-link:nth-child(5) .icon::before {
+  content: "\f2c6";
+}
+
+.social-link:nth-child(6) .icon::before {
+  content: "\f392";
+}
+
+.social-link:nth-child(7) .icon::before {
+  content: "\f0c2";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 0.85em;
 }
