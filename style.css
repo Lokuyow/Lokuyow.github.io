@@ -71,8 +71,7 @@ body {
   border-bottom: 0.11rem solid rgb(228, 228, 228);
   text-decoration: none;
   text-align: center;
-  height: 4rem;
-  padding-top: 1.88rem;
+  padding-top: 1.85rem;
   padding-left: 5rem;
   padding-right: 0.4rem;
 }
@@ -84,7 +83,6 @@ body {
   font-size: 1.5rem;
   font-weight: lighter;
   text-align: left;
-  height: 100%;
   padding-top: 0.8rem;
   padding-right: 8rem;
   padding-left: 0.8rem;
