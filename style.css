@@ -65,33 +65,24 @@ body {
   grid-template-rows:  4rem 4rem 4rem 4rem 4rem 4rem 4rem;
   background-color: rgb(245, 245, 245);
   margin: 1rem 2rem;
+  align-items: center;
 }
 
 .social-icon {
-  border-bottom: 0.11rem solid rgb(228, 228, 228);
+  background-color: rgb(255, 255, 255);
   text-decoration: none;
   text-align: center;
-  padding-top: 1.65rem;
   padding-left: 5rem;
   padding-right: 0.4rem;
 }
 
 .social-link {
-  border-bottom: 0.11rem solid rgb(228, 228, 228);
+  border-bottom: 0.11rem solid rgb(190, 190, 190);
   text-decoration: none;
   color: #000000;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: lighter;
   text-align: left;
-  padding-top: 0.65rem;
   padding-right: 8rem;
   padding-left: 0.8rem;
-}
-
-.social-icon:nth-child(13) {
-  border-bottom: none;
-}
-
-.social-link:nth-child(14) {
-  border-bottom: none;
 }
