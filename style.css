@@ -59,84 +59,41 @@ body {
   font-weight: normal;
 }
 
-.header-social-links {
-  flex-basis: 100%;
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0.5rem 0;
-  width: 100%;
-  max-width: 16.5rem;
+.grid-social-links {
+  display: grid;
+  grid-template-columns: 1fr 2.1fr;
+  grid-template-rows:  4rem 4rem 4rem 4rem 4rem 4rem 4rem;
+  background-color: rgb(245, 245, 245);
+  margin: 1rem 2rem;
+}
+
+.social-icon {
+  border-bottom: 0.11rem solid rgb(228, 228, 228);
+  text-decoration: none;
+  text-align: center;
+  height: 4rem;
+  padding-top: 1.88rem;
+  padding-left: 5rem;
+  padding-right: 0.4rem;
 }
 
 .social-link {
+  border-bottom: 0.11rem solid rgb(228, 228, 228);
   text-decoration: none;
   color: #000000;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: lighter;
-  padding: 1rem 0;
-  width: 100%;
   text-align: left;
-  display: flex;
-  align-items: center;
-  justify-content: start;
+  height: 100%;
+  padding-top: 0.8rem;
+  padding-right: 8rem;
+  padding-left: 0.8rem;
 }
 
-.social-link:nth-child(odd) {
-  background-color: rgb(240, 240, 240);
+.social-icon:nth-child(13) {
+  border-bottom: none;
 }
 
-.social-link:nth-child(even) {
-  background-color: rgb(248, 248, 248);
-  border-top: 0.1rem solid rgb(230, 230, 230);
-  border-bottom: 0.1rem solid rgb(230, 230, 230);
-}
-
-.social-link .icon {
-  display: flex;
-  justify-content: center;
-  width: 0.1rem;
-  margin-left: 7rem;
-}
-
-.social-link .icon::before {
-  font-family: "Font Awesome 5 Brands";
-  margin-right: 2.5rem;
-}
-
-.social-link:nth-child(1) .icon::before {
-  content: "\f099";
-}
-
-.social-link:nth-child(2) .icon::before {
-  content: "\f56b";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: 0.98em;
-}
-
-.social-link:nth-child(3) .icon::before {
-  content: "\f09b";
-}
-
-.social-link:nth-child(4) .icon::before {
-  content: "\f0eb";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-}
-
-.social-link:nth-child(5) .icon::before {
-  content: "\f2c6";
-}
-
-.social-link:nth-child(6) .icon::before {
-  content: "\f392";
-}
-
-.social-link:nth-child(7) .icon::before {
-  content: "\f0c2";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: 0.85em;
+.social-link:nth-child(14) {
+  border-bottom: none;
 }
