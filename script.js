@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       { src: "icon/basu.png", probability: 5 },
       { src: "icon/kowa.png", probability: 5 },
       { src: "icon/kowa2.png", probability: 5 },
-      { src: "icon/kowa2.png", probability: 2 },
+      { src: "icon/kowa2-ai.png", probability: 2 },
       { src: "icon/nita0.png", probability: 5 },
       { src: "icon/ike2.png", probability: 5 },
       { src: "icon/tiku.png", probability: 2 },
