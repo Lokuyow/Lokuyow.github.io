@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // 各画像の確率を正規化（合計が1になるように調整）
     images.forEach(image => image.probability /= totalProbability);
   
-    const randomImage = document.getElementById('randomImage');
+    const randomImage = document.querySelector('#randomImage');
     let previousImageIndex = 0;
   
     randomImage.src = images[previousImageIndex].src;
