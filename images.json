@@ -1,47 +1,47 @@
 [
   {
     "src": "icon/hutu.png",
-    "probability": 10
+    "probability": 5
   },
   {
     "src": "icon/hutu-2.png",
-    "probability": 5
+    "probability": 3
   },
   {
     "src": "icon/hutu-up.png",
-    "probability": 5
+    "probability": 3
   },
   {
     "src": "icon/huhe.png",
-    "probability": 9
+    "probability": 4
   },
   {
     "src": "icon/nita.png",
-    "probability": 8
+    "probability": 3
   },
   {
     "src": "icon/maji.png",
-    "probability": 7
+    "probability": 3
   },
   {
     "src": "icon/bero.png",
-    "probability": 6
+    "probability": 3
   },
   {
     "src": "icon/bero-ai.png",
-    "probability": 5
+    "probability": 3
   },
   {
     "src": "icon/basu.png",
-    "probability": 5
+    "probability": 3
   },
   {
     "src": "icon/kowa.png",
-    "probability": 5
+    "probability": 3
   },
   {
     "src": "icon/kowa2.png",
-    "probability": 5
+    "probability": 1
   },
   {
     "src": "icon/kowa2-ai.png",
@@ -49,11 +49,11 @@
   },
   {
     "src": "icon/nita0.png",
-    "probability": 5
+    "probability": 3
   },
   {
     "src": "icon/ike2.png",
-    "probability": 5
+    "probability": 2
   },
   {
     "src": "icon/tiku.png",
@@ -61,7 +61,7 @@
   },
   {
     "src": "icon/tiku2.png",
-    "probability": 2
+    "probability": 1
   },
   {
     "src": "icon/mono.png",
@@ -93,6 +93,50 @@
   },
   {
     "src": "icon/note1pju99k0jwhw3dftr4a2fk0kj5yaackklgaxx0tr9tstthnzkygwqyufrqg.jpg",
+    "probability": 2
+  },
+  {
+    "src": "icon/note1hzzche3wl7w6rmh5562kk54k0xzdshrgpdcfmy4a9ua87rwtzvuqhthj9n.png",
+    "probability": 2
+  },
+  {
+    "src": "icon/note1v49fpd3qy0632qj42hakcq99dk8lkceqz2jvt6q6p3xka4wc39js4tj860.webp",
+    "probability": 2
+  },
+  {
+    "src": "icon/note1h96kpgj0jagcnq5trpgn68lrsqfhxnt7pacmxc2rhmlufm9rj77snfl9xk.png",
+    "probability": 2
+  },
+  {
+    "src": "icon/note1rgunjrpgmkvgeud8kd9lw08w5wp3tdl73a6xvxx5auu2wpeqrgcsn70pva.png",
+    "probability": 2
+  },
+  {
+    "src": "icon/note1rqslcu737qhzn4xx8mv0zq3ttl8gp8clqh4r37mtw29xp80sds4qstskc5.png",
+    "probability": 2
+  },
+  {
+    "src": "icon/apco-ice.webp",
+    "probability": 2
+  },
+  {
+    "src": "icon/apco-dot.webp",
+    "probability": 2
+  },
+  {
+    "src": "icon/apco-meri.webp",
+    "probability": 2
+  },
+  {
+    "src": "icon/apco-pika.webp",
+    "probability": 2
+  },
+  {
+    "src": "icon/apco-mono.png",
+    "probability": 2
+  },
+  {
+    "src": "icon/apco-earth.jpg",
     "probability": 2
   }
 ]
