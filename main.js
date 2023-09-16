@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", async () => {
+document.addEventListener('DOMContentLoaded', async () => {
     const images = await fetch('images.json').then(resp => resp.json());
 
     // 全ての確率の合計を計算
@@ -7,14 +7,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     // 各画像の確率を正規化（合計が1になるように調整）
     images.forEach(image => image.probability /= totalProbability);
   
-    const randomImage = document.getElementById("randomImage");
+    const randomImage = document.getElementById('randomImage');
     let previousImageIndex = 0;
   
     randomImage.src = images[previousImageIndex].src;
   
-    randomImage.addEventListener("click", () => {
-      let newImageIndex;
-      let randomNumber = Math.random();
+    randomImage.addEventListener('click', () => {
+      let newImageIndex = 0;
+      const randomNumber = Math.random();
   
       let cumulativeProbability = 0;
       for (let i = 0; i < images.length; i++) {
