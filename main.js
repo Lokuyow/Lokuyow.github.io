@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       randomImage.classList.add('active');
       setTimeout(() => {
         randomImage.classList.remove('active');
-      }, 100); // 0.1秒後にクラスを削除
+      }, 80);
     }
   });
 });
