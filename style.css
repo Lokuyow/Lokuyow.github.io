@@ -5,27 +5,24 @@
 }
 
 :root {
-  --main-font: -apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Hiragino Kaku Gothic ProN,Hiragino Sans,ヒラギノ角ゴ ProN W3,Arial,メイリオ,Meiryo,sans-serif;
+  --main-font: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Hiragino Kaku Gothic ProN, Hiragino Sans, ヒラギノ角ゴ ProN W3, Arial, メイリオ, Meiryo, sans-serif;
 }
 
 body {
   font-family: var(--main-font);
-  display: flex;
-  flex-direction: column;
 }
 
-.header {
+.page {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 2rem 0;
+  height: 100vh;
 }
 
 .identity {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: auto 0 40px 0;
 }
 
 .header-image {
@@ -44,45 +41,39 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #282828;
   margin: 0 0 0 1rem;
   line-height: 1.2;
 }
 
 .header-name-katakana {
-  font-size: 1.5rem;
-  font-weight: normal;
+  font-size: 1.8rem;
 }
 
 .header-name-alphabet {
-  font-size: 1.5rem;
-  font-weight: normal;
+  font-size: 1.8rem;
+  margin: 4px 0 0 0;
 }
 
 .grid-social-links {
+  align-self: center;
   display: grid;
   grid-template-columns: 1fr 2.1fr;
-  grid-template-rows:  4rem 4rem 4rem 4rem 4rem 4rem 4rem;
-  background-color: rgb(245, 245, 245);
-  margin: 1rem 2rem;
+  grid-template-rows: 4rem 4rem 4rem 4rem 4rem 4rem 4rem;
+  row-gap: 16px;
   align-items: center;
+  margin: 0 0 auto 0;
 }
 
-.social-icon {
-  background-color: rgb(255, 255, 255);
-  text-decoration: none;
-  text-align: center;
-  padding-left: 5rem;
-  padding-right: 0.4rem;
+.social-link-icon {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 0 0;
 }
 
 .social-link {
-  border-bottom: 0.11rem solid rgb(190, 190, 190);
   text-decoration: none;
   color: #000000;
   font-size: 1.7rem;
-  font-weight: lighter;
-  text-align: left;
-  padding-right: 8rem;
-  padding-left: 0.8rem;
+  font-weight: bold;
+  padding: 0 0 0 10px;
 }
