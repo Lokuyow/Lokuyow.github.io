@@ -68,6 +68,10 @@
     "probability": 2
   },
   {
+    "src": "icon/emoji-kitchen.png",
+    "probability": 3
+  },
+  {
     "src": "icon/note13kmrhvkpnqk3tkg4z4x7527aqejqg90vk8hwe38khmd9hn29lcwsr5qxaj.jpg",
     "probability": 2
   },
@@ -137,6 +141,10 @@
   },
   {
     "src": "icon/apco-earth.jpg",
+    "probability": 2
+  },
+  {
+    "src": "icon/note13xk3sqccyk3h38u8ygvzhfepfzdghd0ass40rk5xhqqgavhavm4s0kksmy.webp",
     "probability": 2
   }
 ]
