@@ -10,6 +10,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   const randomImage = document.querySelector('#randomImage');
   let previousImageIndex = 0;
 
+  // 画像のプリロード
+  images.forEach(image => {
+    const img = new Image();
+    img.src = image.src;
+  });
+
   randomImage.src = images[previousImageIndex].src;
 
   randomImage.addEventListener('click', () => {
