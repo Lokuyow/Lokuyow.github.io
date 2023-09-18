@@ -36,7 +36,8 @@ body {
   transition: transform 0.1s ease-out;
 }
 
-.header-image:active {
+.header-image:active, 
+.header-image.active {
   transform: scale(0.9);
 }
 

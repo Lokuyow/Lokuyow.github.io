@@ -36,6 +36,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     randomImage.src = images[newImageIndex].src;
     previousImageIndex = newImageIndex;
   });
+
+  // スペースキーが押された時のイベントを追加
+  document.addEventListener('keydown', (e) => {
+    if (e.key === " ") { // スペースキーのイベントを検出
+      randomImage.click();
+      randomImage.classList.add('active');
+      setTimeout(() => {
+        randomImage.classList.remove('active');
+      }, 100); // 0.1秒後にクラスを削除
+    }
+  });
 });
 
 function setVH() {
