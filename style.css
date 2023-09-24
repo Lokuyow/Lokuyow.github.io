@@ -63,8 +63,8 @@ body {
   align-self: center;
   display: grid;
   grid-template-columns: 1fr 2.1fr;
-  grid-template-rows: 4rem 4rem 4rem 4rem 4rem 4rem 4rem;
-  row-gap: 12px;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  row-gap: 16px;
   align-items: center;
   margin: 0 0 auto 0;
 }
@@ -81,7 +81,7 @@ a {
 
 .social-link {
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   font-weight: bold;
-  padding: 0 0 0 10px;
+  padding: 0 0 0 5px;
 }
