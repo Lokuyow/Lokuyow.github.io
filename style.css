@@ -11,6 +11,7 @@
 
 body {
   font-family: var(--main-font);
+  color: #333333;
 }
 
 .page {
@@ -68,6 +69,10 @@ body {
   margin: 0 0 auto 0;
 }
 
+a {
+  color: #333333;
+}
+
 .social-link-icon {
   display: flex;
   justify-content: center;
@@ -76,7 +81,6 @@ body {
 
 .social-link {
   text-decoration: none;
-  color: #000000;
   font-size: 1.7rem;
   font-weight: bold;
   padding: 0 0 0 10px;
