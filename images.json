@@ -1,7 +1,7 @@
 [
   {
     "src": "icon/hutu.webp",
-    "probability": 5
+    "probability": 3
   },
   {
     "src": "icon/hutu-2.webp",
@@ -13,7 +13,7 @@
   },
   {
     "src": "icon/huhe.webp",
-    "probability": 4
+    "probability": 3
   },
   {
     "src": "icon/nita.webp",
@@ -73,6 +73,10 @@
   },
   {
     "src": "icon/simple.webp",
+    "probability": 1
+  },
+  {
+    "src": "icon/abstract.webp",
     "probability": 1
   },
   {
