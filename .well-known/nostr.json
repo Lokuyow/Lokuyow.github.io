@@ -6,6 +6,7 @@
 	"relays": {
 		"ec42c765418b3db9c85abff3a88f4a3bbe57535eebbdc54522041fa5328c0600": [
 			"wss://filter.nostr.wine/npub1a3pvwe2p3v7mnjz6hle63r628wl9w567aw7u23fzqs062v5vqcqqu3sgh3?broadcast=true",
+			"wss://relayable.org",
 			"wss://nostr.wine",
 			"wss://nos.lol",
 			"wss://yabu.me",
@@ -22,6 +23,7 @@
 			"wss://purplepag.es"
 		],
 		"f5f02030cb4b22ed15c3d7cc35ae616e6ce6bb3fa537f6e9e91aaa274b9cd716": [
+			"wss://relayable.org",
 			"wss://relay.damus.io",
 			"wss://nos.lol",
 			"wss://nostr.mom",
