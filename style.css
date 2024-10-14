@@ -11,7 +11,6 @@
 
 body {
   font-family: var(--main-font);
-  color: #454545;
 }
 
 .identity {
@@ -19,6 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 32px 0 50px 0;
+  color: var(--main-text-color);
 }
 
 .header-image {
@@ -60,7 +60,7 @@ body {
   row-gap: 24px;
   justify-content: center;
   align-items: center;
-  margin: 0 0 0 20px;
+  margin: 8px 0 8px 20px;
 }
 
 a {
@@ -84,27 +84,52 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px 0 0 0;
+  margin: 60px 0 0 0;
 }
 
 .subject {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: bold;
-  color: #595959;
-  margin: 0 0 6px 0;
+  color: var(--subject-text-color);
+  text-align: center;
+  margin: 20px 0 20px 0;
 }
 
 .sats-rate {
   display: flex;
   justify-content: center;
   width: auto;
-  margin: 0 16px 16px 16px;
+  margin: 0 0 8px 0;
 }
 
 .sats-rate img {
-  border: 2px solid #cccccc;
+  border: 1px solid #cccccc;
   border-radius: 6px;
   width: 100%;
-  max-width: 600px;
+  max-width: 250px;
   height: auto;
+}
+
+.btc-dca-simulator {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--main-text-color);
+  margin: 8px 0 8px 0;
+}
+
+:root {
+  --input-text-color: #000000;
+  --main-text-color: #3d3d3d;
+  --svg-color: #525252;
+  --svg-color2: #8f8f8f;
+  --subject-text-color: #616161;
+  --bg-color1: #ffffff;
+  --bg-color2: #ededed;
+  --input-bg-color: #ededed;
+  --unit-bg-color: #dedede;
+  --hover-color: #dedede;
+  --hover-color2: #d1d1d1;
+  --hover-color3: #f7f7f7;
+  --invalid-color: #dedede;
+  --alpha-color: rgba(0, 0, 0, 0.1);
 }
