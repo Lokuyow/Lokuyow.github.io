@@ -1,46 +1,38 @@
 {
 	"names": {
 		"_": "ec42c765418b3db9c85abff3a88f4a3bbe57535eebbdc54522041fa5328c0600",
-		"2": "f5f02030cb4b22ed15c3d7cc35ae616e6ce6bb3fa537f6e9e91aaa274b9cd716"
+		"2": "f5f02030cb4b22ed15c3d7cc35ae616e6ce6bb3fa537f6e9e91aaa274b9cd716",
+		"3": "2790695431f0a42238165b1b82d41e665df7b19182208a3fcc4eb8ee49e6718f"
 	},
 	"relays": {
 		"ec42c765418b3db9c85abff3a88f4a3bbe57535eebbdc54522041fa5328c0600": [
-			"wss://filter.nostr.wine/npub1a3pvwe2p3v7mnjz6hle63r628wl9w567aw7u23fzqs062v5vqcqqu3sgh3?broadcast=true",
-			"wss://relayable.org",
-			"wss://nostr.wine",
-			"wss://nos.lol",
 			"wss://yabu.me",
-			"wss://relay.nostr.wirednet.jp",
+			"wss://wot.utxo.one",
+			"wss://nostrelites.org",
 			"wss://relay-jp.nostr.wirednet.jp",
-			"wss://nostr-relay.nokotaro.com",
 			"wss://r.kojira.io",
-			"wss://relay-jp.shino3.net",
-			"wss://nrelay.c-stellar.net",
-			"wss://nrelay-jp.c-stellar.net",
-			"wss://nostrja-kari.heguro.com",
-			"wss://nostr.zbd.gg",
-			"wss://relay.nostr.band",
-			"wss://search.nos.today",
+			"wss://snowflare.cc",
+			"wss://relay.mostr.pub",
 			"wss://purplepag.es"
 		],
 		"f5f02030cb4b22ed15c3d7cc35ae616e6ce6bb3fa537f6e9e91aaa274b9cd716": [
-			"wss://relayable.org",
-			"wss://relay.damus.io",
-			"wss://nos.lol",
-			"wss://nostr.mom",
-			"wss://nostr-pub.wellorder.net",
-			"wss://nostr.bitcoiner.social",
 			"wss://yabu.me",
-			"wss://relay.nostr.wirednet.jp",
+			"wss://wot.utxo.one",
+			"wss://nostrelites.org",
 			"wss://relay-jp.nostr.wirednet.jp",
-			"wss://nostr-relay.nokotaro.com",
 			"wss://r.kojira.io",
-			"wss://relay-jp.shino3.net",
-			"wss://nrelay.c-stellar.net",
-			"wss://nrelay-jp.c-stellar.net",
-			"wss://nostr.zbd.gg",
-			"wss://relay.nostr.band",
-			"wss://search.nos.today",
+			"wss://snowflare.cc",
+			"wss://relay.mostr.pub",
+			"wss://purplepag.es"
+		],
+		"2790695431f0a42238165b1b82d41e665df7b19182208a3fcc4eb8ee49e6718f": [
+			"wss://yabu.me",
+			"wss://wot.utxo.one",
+			"wss://nostrelites.org",
+			"wss://relay-jp.nostr.wirednet.jp",
+			"wss://r.kojira.io",
+			"wss://snowflare.cc",
+			"wss://relay.mostr.pub",
 			"wss://purplepag.es"
 		]
 	}
