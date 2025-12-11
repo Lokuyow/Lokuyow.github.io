@@ -7,7 +7,7 @@
   --svg-color: hsl(0, 0%, 99%);
   --link-color: hsl(0, 0%, 99%);
   --border-color: hsl(0, 0%, 40%);
-  --subject-text-color: hsl(0, 0%, 90%);
+  --subject-text-color: hsl(0, 0%, 80%);
   --bg-color: hsl(0, 0%, 14%);
 }
 
@@ -21,7 +21,6 @@ body {
   font-family: var(--main-font);
   background-color: var(--bg-color);
   color: var(--main-text);
-  transition: background-color 0.18s ease, color 0.18s ease;
 }
 
 header {
@@ -142,7 +141,6 @@ section {
   font-weight: bold;
   color: var(--link-color);
   border-radius: 6px;
-  background-color: hsl(240, 1%, 19%);
 }
 
 .social-link-text {
@@ -154,7 +152,6 @@ section {
 }
 
 h2 {
-  font-size: 1.7rem;
   font-weight: bold;
   color: var(--subject-text-color);
   text-align: center;
