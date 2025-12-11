@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  margin: 32px 0;
+  margin: 28px 0;
 }
 
 .identity {
@@ -33,7 +33,7 @@ header {
   align-items: center;
   justify-content: center;
   color: var(--main-text);
-  gap: 14px;
+  gap: 28px;
 }
 
 .header-image {
@@ -55,7 +55,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 0 0 26px;
   line-height: 1.2;
 }
 
@@ -70,12 +69,11 @@ header {
 
 .grid-social-links {
   display: grid;
-  grid-template-columns: 42px auto 42px auto;
-  grid-template-rows: auto auto auto auto;
-  row-gap: 24px;
+  grid-template-columns: repeat(2, auto);
   justify-content: center;
   align-items: center;
-  margin: 8px 0 8px 20px;
+  gap: 6px 6px;
+  margin: 8px 0;
 }
 
 a {
@@ -94,15 +92,14 @@ section {
 }
 
 .social-link-icon {
-  display: flex;
-  justify-content: center;
+  display: none; /* legacy: icons are now inside .social-link */
 }
 
 /* SVGをマスクで単色化して色を CSS 変数でコントロール */
 .icon {
   display: inline-block;
-  width: 42px;
-  height: 42px;
+  width: 38px;
+  height: 38px;
   background-color: var(--svg-color);
   -webkit-mask-size: contain;
   mask-size: contain;
@@ -116,8 +113,8 @@ section {
 /* フォールバック: マスクが未対応のブラウザでは画像を表示 */
 .icon-fallback {
   display: inline-block;
-  width: 42px;
-  height: 42px;
+  width: 38px;
+  height: 38px;
 }
 
 /* デフォルトではフォールバック画像を表示し、mask対応ブラウザではマスク版を表示 */
@@ -136,11 +133,24 @@ section {
 }
 
 .social-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 10px;
+  gap: 10px;
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: bold;
-  margin: 0 20px 0 0;
-  padding: 0 0 0 8px;
+  color: var(--link-color);
+  border-radius: 6px;
+  background-color: hsl(240, 1%, 19%);
+}
+
+.social-link-text {
+  display: inline-block;
+}
+
+.social-link:hover {
+  opacity: 0.86;
 }
 
 h2 {
@@ -148,7 +158,7 @@ h2 {
   font-weight: bold;
   color: var(--subject-text-color);
   text-align: center;
-  margin: 16px 0;
+  margin: 10px 0;
 }
 
 .sats-rate {
