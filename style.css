@@ -147,7 +147,7 @@ section {
   display: inline-block;
 }
 
-.social-link:hover {
+a:hover {
   opacity: 0.86;
 }
 
