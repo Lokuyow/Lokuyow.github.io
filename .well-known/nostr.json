@@ -7,15 +7,12 @@
 	},
 	"relays": {
 		"ec42c765418b3db9c85abff3a88f4a3bbe57535eebbdc54522041fa5328c0600": [
-			"wss://nos.lol/",
 			"wss://yabu.me/",
-			"wss://nostr.wine/",
-			"wss://relay.primal.net/",
-			"wss://relay.damus.io/",
-			"wss://r.kojira.io/",
 			"wss://relay-jp.nostr.wirednet.jp/",
-			"wss://relay.barine.co/",
-			"wss://snowflare.cc/"
+			"wss://snowflare.cc/",
+			"wss://r.kojira.io/",
+			"wss://nostr.compile-error.net/",
+			"wss://cagliostr.compile-error.net/"
 		]
 	}
 }
